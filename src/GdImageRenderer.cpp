@@ -134,9 +134,9 @@ bool GdImageRenderer::create(
 
     initColors(audacity);
     drawBackground();
-    drawBorder();
+    //drawBorder();
     drawWaveform(buffer);
-    drawTimeAxisLabels();
+    //drawTimeAxisLabels();
 
     return true;
 }
@@ -148,7 +148,7 @@ void GdImageRenderer::initColors(bool audacity)
     if (audacity) {
         border_color_     = gdImageColorAllocate(image_, 0,   0,   0);
         background_color_ = gdImageColorAllocate(image_, 214, 214, 214);
-        wave_color_       = gdImageColorAllocate(image_, 63,  77,  155);
+        wave_color_       = gdImageColorAllocate(image_, 0,  0,  0);
         axis_label_color_ = gdImageColorAllocate(image_, 0,   0,   0);
     }
     else {
