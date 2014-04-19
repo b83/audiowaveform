@@ -52,7 +52,7 @@ Install [XCode](https://developer.apple.com/xcode/) and
 
 ### Obtain the source code
 
-    $ git clone https://github.com/bbcrd/audiowaveform.git
+    $ git clone https://github.com/b83/audiowaveform.git
     $ cd audiowaveform
 
 ### Install googletest and googlemock test frameworks
