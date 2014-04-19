@@ -147,7 +147,7 @@ void GdImageRenderer::initColors(bool audacity)
 {
     if (audacity) {
         border_color_     = gdImageColorAllocate(image_, 0,   0,   0);
-        background_color_ = gdImageColorAllocate(image_, 214, 214, 214);
+        background_color_ = gdImageColorAllocate(image_, 255, 255, 255);
         wave_color_       = gdImageColorAllocate(image_, 0,  0,  0);
         axis_label_color_ = gdImageColorAllocate(image_, 0,   0,   0);
     }
